@@ -22,7 +22,7 @@ body {
 .conatiner100 {
     width: 100%;
 }
-.conatiner70 {
+.container70 {
     width: 70%;
     margin: 0 auto;
 }
@@ -70,9 +70,14 @@ p {
     font-size: 15px;
     color: #33475B;
 }
+a {
+    text-decoration: none;
+    color: unset;
+}
 .nav-link {
     font-size: 14px;
     color: #33475B;
+    height: 80px; /*debug*/
 }
 .small-txt {
     font-size: 12px ;
@@ -82,6 +87,9 @@ p {
 }
 .txt-orange {
     color: #FE775A ;
+}
+.txt-gray {
+    color: #33475B;
 }
 
 /*backgrounds colors*/
@@ -96,9 +104,61 @@ p {
 }
 .search-icon {
     color: #00A4BD;
+    margin-right: 24px;
 }
 
+/* buttons common*/
+ .btn-small {
+     padding: 8px;
+     border-radius: 5px;
+ }
+ .btn-white {
+     color: #FE775A;
+     background-color: #fff;
+     border: 1px solid #FE775A;
+ }
+ .btn-orange {
+     color: #fff;
+     background-color: #FE775A;
+ }
+ .btn-gray {
+     color: #33475B;
+     background-color: #DADEE0;
+ }
+ .btn-big {
+     padding: 16px 36px ;
+     border-radius: 5px;
+ }
+
 /*START*/
-.nav-log {
-    height: 80px; /*debug*/
+#nav-log-border {
+    border-bottom: 1px solid #95A2AD;
+}
+.lang-contact {
+    width: 25%;
+    line-height: 80px;
+}
+.eng-contact {
+    margin-left: 4px;
+    display: inline-block;
+}
+.fa-chevron-down {
+    margin: 0 12px 0 4px;
+    padding-right: 16px;
+    border-right: 1px solid #95A2AD;
+    color: #33475B;
+}
+/*top buttons*/
+.top-buttons {
+     width: 30%;
+     padding: 20px 0;
+}
+.btn-log {
+    margin-right: 24px;
+    display: inline-block;
+    
+}
+.btn-hubfree {
+    display: inline-block;
+    
 }
