@@ -19,7 +19,12 @@ body {
 }
 
 /* backgrond, area size*/
-.conatiner100 {
+.container-navlog {
+    position: fixed;
+    top: 0;
+    left: 0;
+}
+.container100 {
     width: 100%;
 }
 .container70 {
@@ -133,6 +138,9 @@ a {
 /*START*/
 #nav-log-border {
     border-bottom: 1px solid #95A2AD;
+}
+.nav-log {
+    height: 80px; /*debug*/
 }
 .lang-contact {
     width: 25%;
