@@ -1,0 +1,104 @@
+ * {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+body {
+    font-family: 'Nunito', sans-serif;
+}
+.clearfix::after {
+    content: "";
+    display: table;
+    clear: both;
+}
+.float-left {
+    float: left;
+}
+.float-right {
+    float: right;
+}
+
+/* backgrond, area size*/
+.conatiner100 {
+    width: 100%;
+}
+.conatiner70 {
+    width: 70%;
+    margin: 0 auto;
+}
+.conatiner60 {
+    width: 60%;
+    margin: 0 auto;
+}
+.w-50 {
+    width: 50%;
+}
+
+/* hierarchy fonts */
+h1 {
+    font-size: 47px;
+    font-weight: 800;
+    color: #33475B;
+} 
+h2 {
+    font-size: 30px;
+    font-weight: 800;
+    color: #33475B;
+}
+h3 {
+    font-size: 29px;
+    font-weight: 800;
+    color: #33475B;
+}
+h4 {
+    font-size: 23px;
+    font-weight: 800;
+    color: #33475B;
+}
+h5 {
+    font-size: 22px;
+    font-weight: 800;
+    color: #33475B;
+}
+h6 {
+    font-size: 22px;
+    font-weight: 800;
+    color: #33475B;
+    text-transform: uppercase;
+}
+p {
+    font-size: 15px;
+    color: #33475B;
+}
+.nav-link {
+    font-size: 14px;
+    color: #33475B;
+}
+.small-txt {
+    font-size: 12px ;
+}
+.txt-white {
+    color: #fff;
+}
+.txt-orange {
+    color: #FE775A ;
+}
+
+/*backgrounds colors*/
+.bg-gray {
+    background-color: #F4F9FD;
+}
+.bg-green {
+    background-color: #AFEBE4;
+}
+.bg-footer {
+    background-color: #32495B;
+}
+.search-icon {
+    color: #00A4BD;
+}
+
+/*START*/
+.nav-log {
+    height: 80px; /*debug*/
+}
