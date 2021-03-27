@@ -39,6 +39,7 @@ body {
     position: fixed;
     top: 0;
     left: 0;
+    z-index: 2;
 }
 .container100 {
     width: 100%;
@@ -153,6 +154,10 @@ a {
      padding: 16px 36px ;
      border-radius: 5px;
  }
+ a.btn-big.btn-orange { 
+    line-height: 54px;
+    font-size: 13px;
+}
 
 /*START*/
 #nav-log-border {
@@ -222,7 +227,9 @@ a {
     left: 15%;
 }
 /* main gray cards */
-
+.gray-cards {
+    padding: 40px 0;
+}
 .cube-card {
     width: 60%;
     margin: auto;
@@ -237,6 +244,7 @@ a {
 
 .learn-more-card {
     padding: 56px 0;
+    margin-bottom: 40px;
     border-radius: 5px;
     background-color: #fff;
     box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.2);
@@ -251,14 +259,11 @@ a {
     width:50%;
 }
 
-.disp-inline p {
+.disp-inline p{
     display: inline-block;
 }
 
 /*float right details book card*/
-.learn-more-card {
-    margin-bottom: 24px;
-}
 .learn-more-details {
     padding-right: 20%;
     /* position: relative; */
@@ -283,7 +288,7 @@ a {
     right: 20%;
 }*/
 
-.line:after {
+.line::after {
     background-color: #33475B;
     content: "";
     display: inline-block;
@@ -294,15 +299,29 @@ a {
     left: 16px;
     margin-right: -50%;
   }
+  .line-horiz::after {
+    background-color: #33475B;
+    content: "";
+    display: block;
+    height: 1px;
+    position: relative;
+    width: 100%;
+    top: 32px;
+    margin-right: -50%;
+  }
 
   /* pricing area */
   .item1 {
       background-color: #fff;
-      width: calc( 33% - 56px);
-      margin: 0 28px ;
+      width: 30%; /*da migliorare forse solo margine lft e rgt alla carta al centro*/
       padding: 16px 32px;
+      border-radius: 5px;
+      box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.2);
   }
-  .item1 img {
-      margin: 0 25%; /* NON MI PIACE*/
-      width: 50%;
+  .img-box img{
+      height: 100px;
+      
+  }
+  .item2 {
+      margin: 0 5%;
   }
