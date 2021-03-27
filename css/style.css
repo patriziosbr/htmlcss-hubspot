@@ -212,3 +212,78 @@ a {
     top: 0;
     left: 15%;
 }
+/* main gray cards */
+
+.cube-card {
+    width: 60%;
+    margin: auto;
+    padding: 40px 0;
+    text-align: center;
+}
+.cube-card img {
+    width: 25%;
+}
+
+/*learn more card horizontal*/
+
+.learn-more-card {
+    padding: 56px 0;
+    border-radius: 5px;
+    background-color: #fff;
+    box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.2);
+}
+.book-cta {
+    height: 200px;
+    width: 30%;
+    margin: auto;
+    text-align: center;
+}
+.book-img {
+    width:50%;
+}
+
+.orange-check p {
+    display: inline-block;
+}
+
+/*float right details book card*/
+.learn-more-card {
+    margin-bottom: 24px;
+}
+.learn-more-details {
+    padding-right: 20%;
+    /* position: relative; */
+}
+.orange-check p::before {
+    height: 16px;
+    width: 16px;
+    margin-right: 8px;
+    color: #fff;
+    content:"\2713";
+    background-color: #FE775A;
+    border-radius: 50%;
+    display: inline-block;
+    text-align: center;
+    line-height: 16px;
+}
+/* .details-hr {  se sei arrivato qui hahahahahahah
+    width: 240px;
+    color: #33475B;
+    position: absolute;
+    top: 70%;
+    right: 20%;
+}*/
+
+h6:after {
+    background-color: #33475B;
+    content: "";
+    display: inline-block;
+    height: 1px;
+    position: relative;
+    vertical-align: middle;
+    width: 40%;
+    left: 16px;
+    margin-right: -50%;
+  }
+
+  /* pricing area */
