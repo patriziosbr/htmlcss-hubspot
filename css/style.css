@@ -102,6 +102,7 @@ a {
     height: 80px; /*debug*/
 }
 .small-txt {
+    color: #fff;
     font-size: 12px ;
 }
 .txt-white {
@@ -136,6 +137,19 @@ a {
  .btn-small {
      padding: 8px;
      border-radius: 5px;
+ }
+ .big-arial {
+    font-size: 44px;
+    font-weight: 800;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #fff;
+ }
+ .small-arial {
+    font-size: 37px;
+    font-weight: 800;
+    text-transform: uppercase;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #fff;
  }
  .btn-white {
      color: #FE775A;
@@ -327,3 +341,27 @@ a {
   }
 
   /* background with gradient*/
+
+.bg-gradient {
+    padding: 56px 0;
+    background: linear-gradient(90deg, #00A9B8, #00B9A9);
+}
+
+    table {
+        width: 100%;
+        border-collapse: collapse;
+    }
+    td p.small-txt {
+        margin-bottom: 32px;
+    }
+    td {
+        border-right: 1px solid #fff;
+        border-bottom: 1px solid #fff;
+    }
+    td:last-child {
+        border-right: none;
+    }
+    .row-two {
+        padding-top: 32px;
+        border-bottom: none;
+    }
