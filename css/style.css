@@ -33,6 +33,9 @@ body {
 .margin-btm64 {
     margin-bottom: 64px;
 }
+.margin-top40 {
+    margin-top: 40px;
+}
 
 /* backgrond, area size*/
 .container-navlog {
@@ -48,7 +51,7 @@ body {
     width: 70%;
     margin: 0 auto;
 }
-.conatiner60 {
+.container60 {
     width: 60%;
     margin: 0 auto;
 }
@@ -91,6 +94,7 @@ h6 {
 p {
     font-size: 15px;
     color: #33475B;
+    font-weight: 700;
 }
 a {
     text-decoration: none;
@@ -142,7 +146,6 @@ a {
     font-size: 44px;
     font-weight: 800;
     font-family: Arial, Helvetica, sans-serif;
-    color: #fff;
  }
  .small-arial {
     font-size: 37px;
@@ -340,14 +343,14 @@ a {
       margin: 0 5%;
   }
 
-  /* background with gradient*/
+  /* background with gradient and table */
 
 .bg-gradient {
     padding: 56px 0;
     background: linear-gradient(90deg, #00A9B8, #00B9A9);
 }
 
-    table {
+    .graident-table {
         width: 100%;
         border-collapse: collapse;
     }
@@ -365,3 +368,24 @@ a {
         padding-top: 32px;
         border-bottom: none;
     }
+/* close table*/
+
+/* 60% width area - customers */
+
+.customers {
+    padding: 48px 0; /*FORSE DA AGGIUNGERE TOP*/
+}
+.number64500 {
+    width: 25%;
+}
+.logos-table {
+    width: 60%;
+    padding-top: 12px;
+}
+
+.logos-table tr td img {
+    width: 80%;
+}
+.testimonial {
+    padding: 40px 0;
+}
