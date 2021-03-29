@@ -121,6 +121,9 @@ a {
 .txt-center {
     text-align: center;
 }
+strong {
+    font-weight: 800;
+}
 
 /*backgrounds colors*/
 .bg-gray {
@@ -172,7 +175,7 @@ a {
      border-radius: 5px;
  }
  a.btn-big.btn-orange { 
-    line-height: 54px;
+    display: inline-block;
     font-size: 13px;
 }
 
@@ -269,13 +272,14 @@ a {
 .book-cta {
     height: 200px;
     width: 30%;
-    margin: auto;
+    /* margin: auto; */
     text-align: center;
 }
 .book-img {
     width:50%;
 }
 
+.disp-inline,
 .disp-inline p{
     display: inline-block;
 }
@@ -285,6 +289,7 @@ a {
     padding-right: 20%;
     /* position: relative; */
 }
+.orange-check-list::before,
 .orange-check p::before {
     height: 16px;
     width: 16px;
@@ -296,8 +301,11 @@ a {
     display: inline-block;
     text-align: center;
     line-height: 16px;
+    font-size: 12px;
+    font-weight: 700;
 }
-/* .details-hr {  se sei arrivato qui hahahahahahah
+
+/* .details-hr {  
     width: 240px;
     color: #33475B;
     position: absolute;
@@ -329,9 +337,10 @@ a {
 
   /* pricing area */
   .item1 {
+      
       background-color: #fff;
-      width: 30%; /*da migliorare forse solo margine lft e rgt alla carta al centro*/
-      padding: 16px 32px;
+      width: 30%; /* solo margine lft e rgt alla carta al centro*/
+      padding: 16px 24px;
       border-radius: 5px;
       box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.2);
   }
