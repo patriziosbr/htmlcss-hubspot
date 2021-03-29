@@ -106,7 +106,7 @@ a {
 .nav-link {
     font-size: 14px;
     color: #33475B;
-    height: 80px; /*debug*/
+   /* height: 80px; debug*/
 }
 .small-txt {
     color: #fff;
@@ -153,6 +153,7 @@ hr {
 
 /* buttons common*/
  .btn-small {
+     font-weight: 800;
      font-size: 13px;
      padding: 8px;
      border-radius: 5px;
@@ -183,6 +184,7 @@ hr {
      background-color: #DADEE0;
  }
  .btn-big {
+     font-weight: 800;
      padding: 16px 36px ;
      border-radius: 5px;
  }
@@ -190,6 +192,17 @@ hr {
     display: inline-block;
     font-size: 13px;
 }
+/*btn status hover*/
+.btn-log:hover,
+.btn-orange:hover{
+    background-color: #ffbcac;
+    transition-duration: 0.3s;
+    transition-timing-function: ease-in-out;
+}
+.btn-log:hover {
+   background-color: #ffdfd6; 
+}
+
 
 /*START*/
 #nav-log-border {
@@ -449,3 +462,19 @@ ul {
 .legal-list li:first-child {
     margin-right: 16px;
 }
+
+/* footer status hover  */
+ 
+footer ul li:hover:not(.heading-list) {
+    color: #81e0f3;
+    text-decoration: underline;
+    transition-duration: 0.3s;
+    transition-timing-function: ease-in-out;
+}
+.btn-gray:hover {
+    background-color: #81e0f3;
+    transition-duration: 0.3s;
+    transition-timing-function: ease-in-out;
+}
+
+
