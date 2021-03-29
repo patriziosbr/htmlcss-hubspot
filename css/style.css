@@ -21,6 +21,9 @@ body {
 .margin-left16 {
     margin-left: 16px;
 }
+.margin-btm16 {
+    margin-bottom: 16px;
+}
 .margin-btm24 {
     margin-bottom: 24px;
 }
@@ -410,4 +413,8 @@ strong {
 .li-foot-lang {
     font-size: 14px;
     font-weight: 600;
+    margin-bottom: 16px;
+}
+ul {
+    list-style: none;
 }
