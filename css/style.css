@@ -133,6 +133,7 @@ strong {
     background-color: #AFEBE4;
 }
 .bg-footer {
+    padding: 24px 0 32px;
     background-color: #32495B;
 }
 .search-icon {
@@ -397,4 +398,16 @@ strong {
 }
 .testimonial {
     padding: 40px 0;
+}
+
+/* footer */
+
+.heading-list {
+    font-size: 15px;
+    font-weight: 800;
+}
+
+.li-foot-lang {
+    font-size: 14px;
+    font-weight: 600;
 }
