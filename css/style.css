@@ -121,11 +121,18 @@ a {
 .txt-gray {
     color: #33475B;
 }
+.txt-light-gray {
+    color: #C9D4E0;
+}
 .txt-center {
     text-align: center;
 }
 strong {
     font-weight: 800;
+}
+hr {
+    color: #33475B;
+    opacity: 0.5;
 }
 
 /*backgrounds colors*/
@@ -146,6 +153,7 @@ strong {
 
 /* buttons common*/
  .btn-small {
+     font-size: 13px;
      padding: 8px;
      border-radius: 5px;
  }
@@ -406,6 +414,7 @@ strong {
 /* footer */
 
 .heading-list {
+    color: #fff;
     font-size: 15px;
     font-weight: 800;
 }
@@ -417,4 +426,21 @@ strong {
 }
 ul {
     list-style: none;
+}
+.Container-list {
+    width: 25%;
+}
+.btn-footer {
+    width: 25%;
+    margin-left: 75%; /* per occupare spazio a sinistra*/
+}
+.icon-footer {
+    width: 25%;
+}
+.icon-footer i {
+    margin-right: 16px;
+}
+.langs-footer li.li-foot-lang {
+    display: inline-block;
+    margin: 56px 16px 16px;
 }
