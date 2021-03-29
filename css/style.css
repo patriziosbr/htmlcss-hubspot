@@ -431,7 +431,9 @@ ul {
     width: 25%;
 }
 .btn-footer {
+    line-height: 34px;
     width: 25%;
+    margin: 8px 0 16px;;
     margin-left: 75%; /* per occupare spazio a sinistra*/
 }
 .icon-footer {
@@ -443,4 +445,7 @@ ul {
 .langs-footer li.li-foot-lang {
     display: inline-block;
     margin: 56px 16px 16px;
+}
+.legal-list li:first-child {
+    margin-right: 16px;
 }
