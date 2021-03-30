@@ -407,12 +407,15 @@ hr {
     width: 25%;
 }
 .logos-table {
-    width: 60%;
+    width: 70%;
+    text-align: right;
     padding-top: 12px;
 }
-
-.logos-table tr td img {
-    width: 80%;
+.logos-row-one img,
+.logos-row-two img {
+    width: 20%;
+    padding: 8px;
+    vertical-align: middle;
 }
 .testimonial {
     padding: 40px 0;
