@@ -287,7 +287,7 @@ hr {
 
 /*learn more card horizontal*/
 
-.learn-more-card {
+.learn-more-book {
     padding: 56px 0;
     margin-bottom: 40px;
     border-radius: 5px;
@@ -297,22 +297,17 @@ hr {
 .book-cta {
     height: 200px;
     width: 30%;
-    /* margin: auto; */
     text-align: center;
 }
 .book-img {
     width:50%;
 }
-
-.disp-inline,
-.disp-inline p{
+.book-learn-more li {
     display: inline-block;
 }
-
 /*float right details book card*/
 .learn-more-details {
     padding-right: 20%;
-    /* position: relative; */
 }
 .orange-check-list::before,
 .orange-check p::before {
@@ -329,15 +324,6 @@ hr {
     font-size: 12px;
     font-weight: 700;
 }
-
-/* .details-hr {  
-    width: 240px;
-    color: #33475B;
-    position: absolute;
-    top: 70%;
-    right: 20%;
-}*/
-
 .line::after {
     background-color: #33475B;
     content: "";
@@ -427,9 +413,10 @@ hr {
     color: #fff;
     font-size: 15px;
     font-weight: 800;
+    cursor: default;
 }
 
-.li-foot-lang {
+.li-foot-lang li {
     font-size: 14px;
     font-weight: 600;
     margin-bottom: 16px;
@@ -437,8 +424,9 @@ hr {
 ul {
     list-style: none;
 }
-.Container-list {
-    width: 25%;
+.container-list {
+    width: 22%;
+    margin-right: 3%;
 }
 .btn-footer {
     line-height: 34px;
@@ -449,17 +437,20 @@ ul {
 .icon-footer {
     width: 25%;
 }
-.icon-footer i {
+.icon-footer li {
     margin-right: 16px;
+    display: inline-block;
 }
-.langs-footer li.li-foot-lang {
+.langs-footer.li-foot-lang li {
     display: inline-block;
     margin: 56px 16px 16px;
 }
 .legal-list li:first-child {
     margin-right: 16px;
 }
-
+.legal-stuff li {
+    display: inline-block;
+}
 /* footer status hover  */
  
 footer ul li:hover:not(.heading-list) {
