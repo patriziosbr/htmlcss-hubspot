@@ -383,25 +383,19 @@ hr {
     padding: 56px 0;
     background: linear-gradient(90deg, #00A9B8, #00B9A9);
 }
-
-    .graident-table {
-        width: 100%;
-        border-collapse: collapse;
-    }
-    td p.small-txt {
-        margin-bottom: 32px;
-    }
-    td {
-        border-right: 1px solid #fff;
-        border-bottom: 1px solid #fff;
-    }
-    td:last-child {
-        border-right: none;
-    }
-    .row-two {
-        padding-top: 32px;
-        border-bottom: none;
-    }
+.content-table {
+    width: 25%;
+    padding: 24px;
+    border-right: 1px solid #fff;
+    border-bottom: 1px solid #fff;
+}
+.content-table:last-child {
+    border-right: none;
+}
+.row-two .content-table {
+    border-bottom: none;
+}
+    
 /* close table*/
 
 /* 60% width area - customers */
