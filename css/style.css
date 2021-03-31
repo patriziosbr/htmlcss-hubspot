@@ -292,7 +292,7 @@ hr {
     padding: 40px 0;
 }
 .cube-card {
-    width: 60%;
+    max-width: 800px;
     margin: auto;
     padding: 40px 0;
     text-align: center;
