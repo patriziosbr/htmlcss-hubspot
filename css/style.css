@@ -51,11 +51,11 @@ body {
     width: 100%;
 }
 .container70 {
-    width: 70%;
+    max-width: 1080px;
     margin: 0 auto;
 }
 .container60 {
-    width: 60%;
+    max-width: 800px;
     margin: 0 auto;
 }
 .w-50 {
@@ -257,7 +257,7 @@ hr {
     background-size: contain; 
     background-repeat: no-repeat;
     position: relative;
-    z-index: 3;
+    /* z-index: 3; */
 }
 /* .green-bg-extra{
     height: 108px;
@@ -267,9 +267,9 @@ hr {
     position: absolute;
     right: 0;
     bottom: 0;
-    z-index: 0; */
+    z-index: 0;
     
-/* } */
+} */
 .green-layer {
     width: 100%;
     height: 60px;
@@ -281,11 +281,11 @@ hr {
 }
 .heading-tron {
     height: 100%;
-    width: 550px;
+    /* width: 550px; */
     padding-top: 56px;
-    position: absolute;
+    /* position: absolute;
     top: 0;
-    left: 15%;
+    left: 15%; */
 }
 /* main gray cards */
 .gray-cards {
@@ -350,7 +350,7 @@ hr {
     width: 40%;
     left: 16px;
     margin-right: -50%;
-  }
+}
   .line-horiz::after {
     background-color: #33475B;
     content: "";
@@ -360,27 +360,24 @@ hr {
     width: 100%;
     top: 32px;
     margin-right: -50%;
-  }
+}
 
-  /* pricing area */
-  .item1 {
-      
-      background-color: #fff;
-      width: 30%; /* solo margine lft e rgt alla carta al centro*/
-      padding: 16px 24px;
-      border-radius: 5px;
-      box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.2);
-  }
-  .img-box img{
-      height: 100px;
-      
-  }
-  .item2 {
-      margin: 0 5%;
-  }
+/* pricing area */
+.item1 {
+    background-color: #fff;
+    width: 30%; /* solo margine lft e rgt alla carta al centro*/
+    padding: 16px 24px;
+    border-radius: 5px;
+    box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.2);
+}
+.img-box img{
+    height: 100px;
+}
+.item2 {
+    margin: 0 5%;
+}
 
   /* background with gradient and table */
-
 .bg-gradient {
     padding: 56px 0;
     background: linear-gradient(90deg, #00A9B8, #00B9A9);
@@ -397,11 +394,9 @@ hr {
 .row-two .content-table {
     border-bottom: none;
 }
-    
 /* close table*/
 
 /* 60% width area - customers */
-
 .customers {
     padding: 48px 0; /*FORSE DA AGGIUNGERE TOP*/
 }
@@ -424,14 +419,12 @@ hr {
 }
 
 /* footer */
-
 .heading-list {
     color: #fff;
     font-size: 15px;
     font-weight: 800;
     cursor: default;
 }
-
 .li-foot-lang li {
     font-size: 14px;
     font-weight: 600;
@@ -468,7 +461,6 @@ ul {
     display: inline-block;
 }
 /* footer status hover  */
- 
 footer ul li:hover:not(.heading-list) {
     color: #81e0f3;
     text-decoration: underline;
